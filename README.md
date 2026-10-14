@@ -1,31 +1,29 @@
-# Island Life — Caribbean Life-Sim Concept
+# Island Ledger — Budget & Savings Tracker
 
-A responsive concept showcase for an original Caribbean-first open-world life simulation game idea.
-
-## What this project is
-
-This repository presents the game's early vision, proposed systems, and a realistic development roadmap. It is a web-based concept page, **not a playable 3D game**. The visual island artwork is built with CSS shapes rather than external image assets.
+A TTD personal-budget learning prototype built with HTML, CSS, and vanilla JavaScript.
 
 ## Features
+- Add income and expense entries with category and date.
+- Show income, expenses, and net balance.
+- Group expense totals by category.
+- Create savings goals with target amounts and starting savings.
+- Manually add savings to a goal and see its progress bar update.
+- Delete transactions or goals; clear transactions with confirmation.
+- Persist transactions and goals in this browser with `localStorage`.
 
-- Responsive editorial-style landing page
-- CSS-built sunset/island illustration
-- Interactive system selector for four proposed game systems
-- Early development roadmap with concept/prototype milestones
-- No dependencies, framework, or build step
+## Run and test
+Open `index.html` in a modern browser. Use fictional data. Add an income and an expense, create a goal, add savings, refresh the page, and verify the information remains. Test invalid or blank amounts too.
 
-## Run it
+## GitHub Pages
+Inspect **Settings → Pages** before changing anything. For this static app, a typical setup is branch `main`, folder `/ (root)`, with `index.html` at the repository root. Use the URL shown in Pages settings. If deployment fails, check the latest workflow under **Actions** first.
 
-Open `index.html` in a modern browser.
+## Limitations and privacy
+This is not a bank connection, secure accounting product, financial advice, or a regulated investment service. Browser local storage is not encrypted or synced and can be cleared. Savings contributions are manually entered; they do not automatically move money or reconcile with transactions. Do not enter sensitive information. Test all features before claiming they work in the deployed version.
 
-## Suggested next steps
-
-1. Add a separate `docs/game-design-document.md` with the target audience, design pillars, core loop, first district, and non-goals.
-2. Compare Unity, Godot, and Unreal against the intended phone performance and your learning needs.
-3. Create a tiny prototype: one controllable character, one small area, one interaction, and a save/load test.
-4. Document what is implemented separately from what is planned.
-5. Add screenshots or short clips only after you have a real prototype.
-
-## Skills practiced
-
-HTML structure, responsive CSS, CSS illustration, accessible tab-like controls, JavaScript objects, DOM updates, and project documentation.
+## Roadmap
+- [ ] Month/date filter.
+- [ ] Edit transactions and goal details.
+- [ ] CSV export/import with validation.
+- [ ] Budget limits per category and monthly summaries.
+- [ ] Unit tests for totals and input validation.
+- [ ] Accessibility and browser compatibility checks.

@@ -1,74 +1,29 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Early concept showcase for a Caribbean open-world life simulation game.">
-  <title>ISLAND LIFE — Caribbean Life Sim Concept</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A local-first TTD income, expense, and savings tracker learning prototype.">
+<title>Island Ledger — Money, made clearer</title><link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
 </head>
 <body>
-  <div class="grain"></div>
-  <header class="nav">
-    <a href="#" class="logo"><span class="logo-symbol">✳</span> ISLAND<span class="logo-light">LIFE</span></a>
-    <nav><a href="#vision">Vision</a><a href="#systems">Systems</a><a href="#roadmap">Roadmap</a></nav>
-    <a class="nav-cta" href="#roadmap">Explore the concept <span>↗</span></a>
-  </header>
-  <main>
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="kicker"><span></span> ORIGINAL GAME CONCEPT / EARLY DESIGN</p>
-        <h1>A whole life.<br><em>One island at a time.</em></h1>
-        <p class="hero-text">A Caribbean-first open-world life sim where your story is shaped by the places you know, the work you do, the people you meet, and the choices you make.</p>
-        <div class="hero-actions"><a href="#vision" class="button button-bright">Discover the vision <span>↘</span></a><a href="#systems" class="text-link">Explore game systems <span>→</span></a></div>
-        <div class="hero-stats"><div><strong>01</strong><span>Island-first</span></div><div><strong>∞</strong><span>Ways to live</span></div><div><strong>WIP</strong><span>Concept stage</span></div></div>
-      </div>
-      <div class="hero-art" role="img" aria-label="Abstract illustrated tropical island with sunset, sea, and city skyline">
-        <div class="sun"></div><div class="sun-glow"></div><div class="bird bird-one">⌁</div><div class="bird bird-two">⌁</div>
-        <div class="mountain mountain-back"></div><div class="mountain mountain-front"></div>
-        <div class="city"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
-        <div class="sea"></div><div class="sea-line line-one"></div><div class="sea-line line-two"></div>
-        <div class="art-tag"><span class="pulse"></span> CONCEPT ART DIRECTION <b>01 / 04</b></div>
-      </div>
-    </section>
-
-    <section id="vision" class="section vision-section">
-      <div class="section-label">01 — THE VISION</div>
-      <div class="vision-grid"><h2>Not just a map.<br><span>A place to belong.</span></h2><div><p class="large-copy">Build a life that feels connected to the Caribbean — from familiar streets and local work to island travel, community, ambition, and unexpected stories.</p><p class="muted-copy">The long-term vision is a third-person 3D world that respects the limits of budget phones while giving players room to make their own stories. This page is a concept prototype, not a playable game.</p></div></div>
-      <div class="values-grid">
-        <article><span class="value-number">A / 01</span><div class="value-icon">⌂</div><h3>Live your own way</h3><p>Work, save, build a reputation, decorate a home, or explore another path.</p></article>
-        <article><span class="value-number">A / 02</span><div class="value-icon">↗</div><h3>Local roots</h3><p>Start with a Trinidad-inspired setting and expand carefully when the foundations work.</p></article>
-        <article><span class="value-number">A / 03</span><div class="value-icon">◎</div><h3>People make the place</h3><p>Friendships, community businesses, shared activities, and meaningful consequences.</p></article>
-      </div>
-    </section>
-
-    <section id="systems" class="section systems-section">
-      <div class="section-label">02 — CORE SYSTEMS</div>
-      <div class="section-head"><h2>Many paths.<br><span>One living world.</span></h2><p>Choose a system to see its early design direction. These are proposed features, not implemented game mechanics.</p></div>
-      <div class="system-layout">
-        <div class="system-tabs" role="tablist" aria-label="Game system concepts">
-          <button class="system-tab active" data-system="life" role="tab" aria-selected="true"><span>01</span> Everyday life <b>↗</b></button>
-          <button class="system-tab" data-system="work" role="tab" aria-selected="false"><span>02</span> Work & business <b>↗</b></button>
-          <button class="system-tab" data-system="travel" role="tab" aria-selected="false"><span>03</span> Island travel <b>↗</b></button>
-          <button class="system-tab" data-system="community" role="tab" aria-selected="false"><span>04</span> Community RP <b>↗</b></button>
-        </div>
-        <article class="system-detail" aria-live="polite"><div class="detail-top"><span id="detail-index">SYSTEM 01</span><span class="status">DESIGN IDEA</span></div><div id="detail-icon" class="detail-icon">⌂</div><h3 id="detail-title">A life that grows with you</h3><p id="detail-description">Start with a small space, build routines, meet neighbours, and work toward personal goals. The world should feel useful even when a player only has a short session.</p><div class="detail-tags" id="detail-tags"><span>Daily routines</span><span>Housing</span><span>Progression</span></div></article>
-      </div>
-    </section>
-
-    <section id="roadmap" class="section roadmap-section">
-      <div class="section-label">03 — DEVELOPMENT ROADMAP</div>
-      <div class="roadmap-intro"><h2>Start small.<br><span>Build with purpose.</span></h2><p>A realistic solo-developer path starts with research and a tiny playable prototype — not a giant open world on day one.</p></div>
-      <div class="roadmap-list">
-        <article><div class="roadmap-number">01</div><div><span class="phase">NOW / CONCEPT</span><h3>Define the game</h3><p>Write the design pillars, first location, core loop, audience, and technical limits.</p></div><span class="phase-state">CURRENT FOCUS</span></article>
-        <article><div class="roadmap-number">02</div><div><span class="phase">NEXT / PROTOTYPE</span><h3>One small playable slice</h3><p>Test movement, one street, one simple job, and a save/load loop using a chosen engine.</p></div><span class="phase-state future">PLANNED</span></article>
-        <article><div class="roadmap-number">03</div><div><span class="phase">LATER / VERTICAL SLICE</span><h3>Make one loop feel good</h3><p>Improve performance, interface, NPC interaction, and one repeatable activity before expanding.</p></div><span class="phase-state future">PLANNED</span></article>
-        <article><div class="roadmap-number">04</div><div><span class="phase">FUTURE / EXPANSION</span><h3>Grow only when ready</h3><p>Explore more districts, multiplayer, additional islands, and deeper systems after the core is stable.</p></div><span class="phase-state future">LONG-TERM</span></article>
-      </div>
-      <div class="closing-note"><span>✳</span><p><strong>Made from a big idea, built one step at a time.</strong><br>Concept by an aspiring developer learning through research, prototyping, and iteration.</p></div>
-    </section>
-  </main>
-  <footer><a href="#" class="logo"><span class="logo-symbol">✳</span> ISLAND<span class="logo-light">LIFE</span></a><span>UNOFFICIAL CONCEPT PROJECT · NOT A RELEASED GAME</span><a href="#top">BACK TO TOP ↑</a></footer>
-  <script src="app.js"></script>
-</body>
-</html>
+<header><a class="brand" href="#"><b>IL</b> island<span>ledger</span></a><span class="tag">LEARNING PROTOTYPE</span></header>
+<main>
+<section class="intro"><p class="eyebrow">YOUR MONEY, IN ONE PLACE</p><h1>Make room for<br><em>what matters.</em></h1><p>A simple way to track everyday money and savings goals in Trinidad and Tobago dollars.</p><small>● Stored in this browser only</small></section>
+<section class="totals"><article><span>Total income</span><strong id="incomeTotal">TT$0.00</strong></article><article><span>Total expenses</span><strong id="expenseTotal">TT$0.00</strong></article><article><span>Net balance</span><strong id="balanceTotal">TT$0.00</strong></article></section>
+<div class="columns">
+<section class="panel"><p class="eyebrow">NEW ENTRY</p><h2>Add a transaction</h2>
+<form id="transactionForm">
+<label for="description">What was it for?</label><input id="description" name="description" maxlength="80" placeholder="e.g. Fortnightly pay" required>
+<div class="two"><div><label for="amount">Amount (TTD)</label><input id="amount" name="amount" type="number" min="0.01" step="0.01" placeholder="0.00" required></div><div><label for="type">Type</label><select id="type" name="type"><option value="expense">Expense</option><option value="income">Income</option></select></div></div>
+<div class="two"><div><label for="category">Category</label><select id="category" name="category"><option>Food</option><option>Transport</option><option>Rent & bills</option><option>Health</option><option>Personal</option><option>Education</option><option>Savings</option><option>Work</option><option>Other</option></select></div><div><label for="date">Date</label><input id="date" name="date" type="date" required></div></div>
+<button type="submit">＋ Add transaction</button><p id="formMessage" role="status"></p></form></section>
+<section class="panel"><div class="listhead"><div><p class="eyebrow">YOUR ACTIVITY</p><h2>Recent transactions</h2></div><button id="clearButton" class="textbutton" type="button">Clear all</button></div>
+<div id="emptyState" class="empty"><h3>Your story starts here</h3><p>Add an income or expense to see the summary update.</p></div><ul id="transactionList" aria-live="polite"></ul></section></div>
+<section class="panel"><p class="eyebrow">SAVINGS PLAN</p><h2>Create a savings goal</h2>
+<form id="goalForm" class="goal-form"><div><label for="goalName">Goal name</label><input id="goalName" maxlength="60" placeholder="e.g. Emergency fund" required></div><div><label for="goalTarget">Target (TTD)</label><input id="goalTarget" type="number" min="0.01" step="0.01" placeholder="3000" required></div><div><label for="goalSaved">Already saved (TTD)</label><input id="goalSaved" type="number" min="0" step="0.01" value="0" required></div><button type="submit">＋ Add goal</button></form>
+<div id="goalsEmpty" class="empty"><p>No savings goals yet. Add one to track your progress.</p></div><div id="goalsList" class="goals-list"></div>
+</section>
+<section class="panel"><p class="eyebrow">SPENDING SNAPSHOT</p><h2>Where your money goes</h2><div id="categoryBreakdown">Add an expense to see categories.</div></section>
+<aside><b>Prototype, not a bank.</b> Entries and goals are stored in this browser only. There is no bank connection, encryption, or sync. Use fictional data; never enter sensitive information. Savings progress is manually entered and does not automatically move money from your balance.</aside>
+<footer>Made as a learning project · TTD · <span id="year"></span></footer>
+</main></body></html>
