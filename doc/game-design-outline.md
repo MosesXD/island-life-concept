@@ -1,53 +1,51 @@
-# Island Life — Early Game Design Outline
+# Caribbean Life Sim — Early Design Outline
 
-**Status:** Concept stage  
-**Scope:** Early planning document, not a promise of implemented features.
+**Status:** Early concept. Not a production specification or playable build.
 
-## One-sentence pitch
+## High concept
+A Caribbean-inspired open-world life simulation beginning with Trinidad and Tobago as its cultural/environmental reference point. Players build a life through work, relationships, exploration, money management, customization, and choices.
 
-A Caribbean-first open-world life simulation where players build a life through work, social connections, exploration, and personal choices.
+## Design principles
+- Caribbean-first identity grounded in respectful research.
+- Believable everyday loop, not disconnected feature lists.
+- Scalable performance for modest phones.
+- Build a small, finished prototype before expanding.
+- Separate single-player prototype scope from future multiplayer ambitions.
+- If free-to-play is pursued, prefer transparent cosmetic monetization over pay-to-win advantages.
 
-## Design pillars
+## Core loop hypothesis
+Choose a goal → travel to a place → interact → complete a task → receive money/progress → spend, save, customize, or unlock an opportunity → choose the next goal.
 
-1. **Local identity:** Begin with a focused Trinidad-inspired setting rather than trying to recreate every island at once.
-2. **Player choice:** Support different lifestyles, from ordinary work and personal goals to deeper role-play.
-3. **Accessible performance:** Design with budget Android phones and adjustable visual settings in mind.
-4. **A living community:** NPC routines and player social systems should make the world feel connected.
-5. **Responsible multiplayer:** Plan safety tools, blocking, reporting, privacy, and moderation before opening public servers.
+## Candidate systems (proposed, not implemented)
+- Character appearance and identity.
+- Legal jobs and skills.
+- Income, expenses, savings, purchases.
+- Vehicles and travel.
+- Property and personal spaces.
+- NPC routines, social interactions, reputation.
+- Weather and day/night.
+- Boats, ferries, ports, and inter-island travel.
+- If online features are ever built: text chat, friends, block/report, privacy and moderation.
 
-## Core loop (hypothesis)
+## First playable prototype
+One small fictionalized neighborhood; one controllable character; one interaction; one simple job/task with start, progress, and completion; one visible reward counter. A new player should understand and repeat the activity without developer explanation.
 
-Explore a small area → interact with people or places → complete a useful activity → earn progress or resources → improve the character's options → return with a new goal.
+Do not start with a seamless national map, persistent online servers, a complex economy, full vehicle simulation, or voice chat.
 
-This loop must be tested in a small prototype before expanding it.
+## Engine decision
+Test Godot, Unity, and Unreal with a small experiment. Compare skill fit, mobile performance, build size, learning resources, 3D workflow, asset availability, and commercial terms at the time of the decision.
 
-## First playable slice (proposed)
+## Online safety
+If multiplayer becomes realistic, plan blocking/reporting, privacy, secure authentication, data minimization, moderation, abuse response, and operating costs before launch.
 
-- One small district, not a full island
-- One controllable third-person character
-- One basic interaction (for example, entering a workplace or talking to an NPC)
-- One repeatable job/activity
-- A simple currency or progress value
-- Save and load
-- Performance test on a modest device or a representative low-end target
+## Main risks
+Scope creep; 3D art/content workload; budget-device performance; multiplayer costs and moderation; cultural accuracy; legal obligations; confusing a concept page with a working game.
 
-## Long-term ideas (not committed features)
-
-- Multiple districts and island travel
-- Jobs, skills, housing, vehicles, and player businesses
-- Dynamic time and weather
-- NPC routines and social reputation
-- Optional multiplayer role-play
-- Additional Caribbean islands after the core experience is proven
-
-## Risks and open questions
-
-- Which engine best matches the developer's current skills and target devices?
-- What is the smallest prototype that proves the core loop is fun?
-- How can the game remain lightweight on lower-end phones?
-- What online systems are affordable to host and moderate?
-- Which locations, names, and cultural details require research and community feedback?
-
-## Next decision
-
-Choose one engine to learn and build a movement-and-interaction prototype before attempting online multiplayer, a large map, or advanced economy systems.
+## Staged milestones
+1. Design foundation and research.
+2. Engine test and character movement.
+3. One interaction.
+4. One complete job/task loop.
+5. Mobile performance and user feedback.
+6. Small playable demo and honest documentation.
+7. Decide whether to expand, revise, or pause based on evidence.
